@@ -3,7 +3,7 @@
     b. Print only the ODD values from 3 - 29, one number per line.
     c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
-/*for (let i = 0; i < 21; i++) {
+for (let i = 0; i < 21; i++) {
    console.log(i);
 }
 for (let i = 3; i < 30; i=i+2 ) {
@@ -14,7 +14,7 @@ for (let i = 12; i > (-15); i=i-2 ) {
 }
 for (let i = 48; i > 20; i=i-3) {
   console.log(i);
-}*/
+}
 
 
 
@@ -42,13 +42,14 @@ for (let i = 0; i < phrase.length; i++){
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
    let nums = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
-   let even = ""
    for (let i = 0; i < nums.length; i++){
    if (nums[i] % 2 == 0){
-     even = (nums[i]);
+    let even = (nums[i]);
      console.log(even);
-     }
-    //let odd = nums.slice(even);
-    //console.log(odd);
-    }
+     } }
+   for (let i = 0; i < nums.length; i++){ 
+    if (nums[i] % 2 != 0){
+    let odd = (nums[i]);
+     console.log(odd);
+     } } 
    
