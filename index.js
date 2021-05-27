@@ -31,7 +31,7 @@ let arr = [1, 5, "LC101", "blue", 42];
 for (let i = 0; i < arr.length; i++){
   console.log(arr[i]);
 }  
-for (let i = 0; i < phrase.length; i++){
+for (let i = phrase.length - 1; i >= 0; i--){
   console.log(phrase[i]);
 }
 
