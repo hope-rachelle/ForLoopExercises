@@ -21,7 +21,6 @@ for (let i = 48; i > 20; i=i-3) {
 /*Exercise #2: 
 Initialize two variables to hold the string “LaunchCode” and the array [1, 5, ‘LC101’, ‘blue’, 42].*/
 let phrase = "LaunchCode";
-let reversed = ""
 let arr = [1, 5, "LC101", "blue", 42];
 
 
